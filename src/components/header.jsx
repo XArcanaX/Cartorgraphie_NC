@@ -8,10 +8,10 @@ const Header = ({ showSourceSelector = false, title = null }) => {
             <section>
                 <ThemeToggle />
                 <nav>
-                    <Link className="nav-link" to="/">Accueil</link>
-                    <Link className="nav-link" to="/DataDescription">Description des cas</link>
-                    <Link className="nav-link" to="/Predictions">Prédiction des cas</link>
-                    <Link className="nav-link" to="/About">À propos</link>
+                    <Link className="nav-link" to="/">Accueil</Link>
+                    <Link className="nav-link" to="/DataDescription">Description des cas</Link>
+                    <Link className="nav-link" to="/Predictions">Prédiction des cas</Link>
+                    <Link className="nav-link" to="/About">À propos</Link>
                 </nav>
 
                 {showSourceSelector && (
